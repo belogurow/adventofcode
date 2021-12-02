@@ -2,3 +2,4 @@
 
 # 2021
 - [Day 1](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2021/Day01.java)
+- [Day 2](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2021/Day02.java)
