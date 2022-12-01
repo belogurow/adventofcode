@@ -6,3 +6,6 @@
 - [Day 3](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2021/Day03.java)
 - [Day 4](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2021/Day04.java)
 - [Day 5](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2021/Day05.java)
+
+# 2022
+- [Day 1](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2022/Day01.java)
