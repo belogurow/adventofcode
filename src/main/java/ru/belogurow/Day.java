@@ -1,6 +1,7 @@
 package ru.belogurow;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public abstract class Day {
 
@@ -22,5 +23,11 @@ public abstract class Day {
 		return ResourcesReaderUtils.readFileFromResources(year, dayNumber).stream()
 				.map(Integer::parseInt)
 				.toList();
+	}
+
+	public List<Long> readLongsFromResources() {
+		return ResourcesReaderUtils.readFileFromResources(year, dayNumber).stream()
+				.map(Long::parseLong)
+				.collect(Collectors.toList());
 	}
 }
