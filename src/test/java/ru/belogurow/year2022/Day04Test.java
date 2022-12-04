@@ -18,4 +18,5 @@ class Day04Test {
         var result = day04.solvePartTwo();
         Assertions.assertEquals(833L, result);
     }
+
 }
