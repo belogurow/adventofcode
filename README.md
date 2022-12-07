@@ -14,3 +14,4 @@
 - [Day 4](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2022/Day04.java)
 - [Day 5](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2022/Day05.java)
 - [Day 6](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2022/Day06.java)
+- [Day 7](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2022/Day07.java)
