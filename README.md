@@ -1,4 +1,4 @@
-# Solutions for [Advent Of Code] with dynamic tests (https://adventofcode.com/)
+# Solutions for [Advent Of Code](https://adventofcode.com/) with dynamic tests 
 
 # 2021
 - [Day 1](https://github.com/belogurow/adventofcode/blob/master/src/main/java/ru/belogurow/year2021/Day01.java)
