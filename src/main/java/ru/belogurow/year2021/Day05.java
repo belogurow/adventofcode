@@ -10,7 +10,7 @@ public class Day05 extends Day {
 		super(5, 2021, "Hydrothermal Venture");
 	}
 
-	public int solvePartOne() {
+	public Integer solvePartOne() {
 		var parsedLines = parseLines();
 		var filteredLines = parsedLines.stream()
 				.filter(line -> line.isHorizontal() || line.isVertical())
@@ -29,7 +29,7 @@ public class Day05 extends Day {
 		return findOverlapPoints(diagram);
 	}
 
-	public int solvePartTwo() {
+	public Integer solvePartTwo() {
 		var parsedLines = parseLines();
 		var diagram = new int[1000][1000]; // based on test data
 

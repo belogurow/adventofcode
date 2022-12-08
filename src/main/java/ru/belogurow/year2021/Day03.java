@@ -12,7 +12,7 @@ public class Day03 extends Day {
 		super(3, 2021, "Binary Diagnostic");
 	}
 
-	public int solvePartOne() {
+	public Integer solvePartOne() {
 		var lines = readLinesFromResources();
 		var bitLength = lines.get(0).length();
 
@@ -48,7 +48,7 @@ public class Day03 extends Day {
 		return gammaRate * epsilonRate;
 	}
 
-	public int solvePartTwo() {
+	public Integer solvePartTwo() {
 		var lines = readLinesFromResources();
 
 		var oxygenGeneratorRatingBinary = findBitRatingFor(lines, true);

@@ -14,7 +14,7 @@ public class Day04 extends Day {
 		super(4, 2021, "Giant Squid");
 	}
 
-	public int solvePartOne() {
+	public Integer solvePartOne() {
 		var lines = readLinesFromResources();
 
 		var inputNumbers = Arrays.stream(lines.get(0).split(","))
@@ -35,7 +35,7 @@ public class Day04 extends Day {
 		return 0;
 	}
 
-	public int solvePartTwo() {
+	public Integer solvePartTwo() {
 		var lines = readLinesFromResources();
 
 		var inputNumbers = Arrays.stream(lines.get(0).split(","))

@@ -14,7 +14,7 @@ public class Day02 extends Day {
 		super(2, 2021, "Dive!");
 	}
 
-	public int solvePartOne() {
+	public Integer solvePartOne() {
 		List<Step> steps = readSteps();
 
 		var horizontalPosition = 0;
@@ -31,7 +31,7 @@ public class Day02 extends Day {
 		return horizontalPosition * depth;
 	}
 
-	public int solvePartTwo() {
+	public Integer solvePartTwo() {
 		List<Step> steps = readSteps();
 
 		var horizontalPosition = 0;

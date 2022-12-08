@@ -7,10 +7,10 @@ import ru.belogurow.Day;
 public class Day08 extends Day {
 
     public Day08() {
-        super(8, 2022, "Treetop Tree House");
+        super(8,  2022, "Treetop Tree House");
     }
 
-    public long solvePartOne() {
+    public Integer solvePartOne() {
         int[][] trees = readLinesFromResources().stream()
                 .map(line -> Arrays.stream(line.split(""))
                         .mapToInt(Integer::parseInt)
@@ -27,6 +27,7 @@ public class Day08 extends Day {
                 }
             }
         }
+
         return visibleTrees;
     }
 
@@ -80,7 +81,7 @@ public class Day08 extends Day {
         return false;
     }
 
-    public int solvePartTwo() {
+    public Integer solvePartTwo() {
         int[][] trees = readLinesFromResources().stream()
                 .map(line -> Arrays.stream(line.split(""))
                         .mapToInt(Integer::parseInt)

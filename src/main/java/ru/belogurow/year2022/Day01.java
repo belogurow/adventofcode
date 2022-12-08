@@ -11,7 +11,7 @@ public class Day01 extends Day {
         super(1, 2022, "Calorie Counting");
     }
 
-    public long solvePartOne() {
+    public Long solvePartOne() {
         var lines = readLinesFromResources();
         var maxCalories = 0L;
 
@@ -32,7 +32,7 @@ public class Day01 extends Day {
         return maxCalories;
     }
 
-    public long solvePartTwo() {
+    public Long solvePartTwo() {
         var lines = readLinesFromResources();
         var caloriesList = new CaloriesList(3);
 

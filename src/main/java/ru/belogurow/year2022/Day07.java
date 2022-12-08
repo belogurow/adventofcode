@@ -11,16 +11,16 @@ public class Day07 extends Day {
         super(7, 2022, "No Space Left On Device");
     }
 
-    public long solvePartOne() {
+    public Object solvePartOne() {
         Directory rootDir = parseFileSystem(readLinesFromResources());
 
         long maxSize = 100_000;
         return rootDir.getSizesForAllDirectories().stream()
                 .filter(dirSize -> dirSize < maxSize)
-                .reduce(0L , Long::sum);
+                .reduce(0L, Long::sum);
     }
 
-    public long solvePartTwo() {
+    public Object solvePartTwo() {
         Directory rootDir = parseFileSystem(readLinesFromResources());
 
         long totalSpace = 70_000_000;

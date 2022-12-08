@@ -21,7 +21,7 @@ public class Day02 extends Day {
         super(2, 2022, "Rock Paper Scissors");
     }
 
-    public long solvePartOne() {
+    public Long solvePartOne() {
         long result = 0;
 
         for (String line : readLinesFromResources()) {
@@ -31,7 +31,7 @@ public class Day02 extends Day {
         return result;
     }
 
-    public long solvePartTwo() {
+    public Long solvePartTwo() {
         long result = 0L;
 
         for (String line : readLinesFromResources()) {

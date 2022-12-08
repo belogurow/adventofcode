@@ -16,7 +16,7 @@ public class Day03 extends Day {
         super(3, 2022, "Rucksack Reorganization");
     }
 
-    public long solvePartOne() {
+    public Integer solvePartOne() {
         var lines = readLinesFromResources();
         var count = 0;
 
@@ -30,7 +30,7 @@ public class Day03 extends Day {
         return count;
     }
 
-    public long solvePartTwo() {
+    public Integer solvePartTwo() {
         var lines = readLinesFromResources();
         var count = 0;
 

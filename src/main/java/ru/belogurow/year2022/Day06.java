@@ -8,11 +8,11 @@ public class Day06 extends Day {
         super(6, 2022, "Tuning Trouble");
     }
 
-    public int solvePartOne() {
+    public Integer solvePartOne() {
         return solve(4);
     }
 
-    public int solvePartTwo() {
+    public Integer solvePartTwo() {
         return solve(14);
     }
 

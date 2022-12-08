@@ -10,7 +10,7 @@ public class Day04 extends Day {
         super(4, 2022, "Camp Cleanup");
     }
 
-    public long solvePartOne() {
+    public Long solvePartOne() {
         List<String> lines = readLinesFromResources();
         long result = 0L;
 
@@ -23,7 +23,7 @@ public class Day04 extends Day {
         return result;
     }
 
-    public long solvePartTwo() {
+    public Long solvePartTwo() {
         List<String> lines = readLinesFromResources();
         long result = 0L;
 

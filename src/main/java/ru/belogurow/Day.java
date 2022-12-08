@@ -14,6 +14,13 @@ public abstract class Day {
 		this.year = year;
 		this.title = title;
 	}
+	public abstract Object solvePartOne();
+
+	public abstract Object solvePartTwo();
+
+	public String getTitle() {
+		return title;
+	}
 
 	public List<String> readLinesFromResources() {
 		return ResourcesReaderUtils.readFileFromResources(year, dayNumber);
@@ -23,11 +30,5 @@ public abstract class Day {
 		return ResourcesReaderUtils.readFileFromResources(year, dayNumber).stream()
 				.map(Integer::parseInt)
 				.toList();
-	}
-
-	public List<Long> readLongsFromResources() {
-		return ResourcesReaderUtils.readFileFromResources(year, dayNumber).stream()
-				.map(Long::parseLong)
-				.collect(Collectors.toList());
 	}
 }

@@ -8,7 +8,7 @@ public class Day01 extends Day {
 		super(1, 2021, "Sonar Sweep");
 	}
 
-	public int solvePartOne() {
+	public Integer solvePartOne() {
 		var inputList = readIntegersFromResources();
 		var count = 0;
 
@@ -21,7 +21,7 @@ public class Day01 extends Day {
 		return count;
 	}
 
-	public int solvePartTwo() {
+	public Integer solvePartTwo() {
 		var inputList = readLinesFromResources().stream()
 				.map(line -> line.split(" ")[0])
 				.map(Integer::parseInt)
