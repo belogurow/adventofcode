@@ -17,6 +17,7 @@ public class Year2022Tests extends AoCAbstractTest {
                 AoCTestResult.of(new Day05(), "VWLCWGSDQ", "TCGLQSLPW"),
                 AoCTestResult.of(new Day06(), "1920", "2334"),
                 AoCTestResult.of(new Day07(), "1581595", "1544176"),
-                AoCTestResult.of(new Day08(), "1708", "504000"));
+                AoCTestResult.of(new Day08(), "1708", "504000"),
+                AoCTestResult.of(new Day09(), "6311", "2482"));
     }
 }
