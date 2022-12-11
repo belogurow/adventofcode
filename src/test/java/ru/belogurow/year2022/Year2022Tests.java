@@ -7,6 +7,15 @@ import ru.belogurow.AoCTestResult;
 
 public class Year2022Tests extends AoCAbstractTest {
 
+    private static final String DAY_10_PART_2 = """
+
+            ###..#....####.####.####.#.....##..####.
+            #..#.#....#.......#.#....#....#..#.#....
+            #..#.#....###....#..###..#....#....###..
+            ###..#....#.....#...#....#....#.##.#....
+            #.#..#....#....#....#....#....#..#.#....е
+            #..#.####.####.####.#....####..###.####.""";
+
     @Override
     public Stream<AoCTestResult> getTestResultStream() {
         return Stream.of(
@@ -18,6 +27,7 @@ public class Year2022Tests extends AoCAbstractTest {
                 AoCTestResult.of(new Day06(), "1920", "2334"),
                 AoCTestResult.of(new Day07(), "1581595", "1544176"),
                 AoCTestResult.of(new Day08(), "1708", "504000"),
-                AoCTestResult.of(new Day09(), "6311", "2482"));
+                AoCTestResult.of(new Day09(), "6311", "2482"),
+                AoCTestResult.of(new Day10(), "17020", DAY_10_PART_2));
     }
 }
